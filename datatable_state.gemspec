@@ -7,11 +7,11 @@ require "datatable_state/version"
 Gem::Specification.new do |s|
   s.name        = "datatable_state"
   s.version     = DatatableState::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of DatatableState."
-  s.description = "TODO: Description of DatatableState."
+  s.authors     = ["denispeplin"]
+  s.email       = ["denis.peplin@gmail.com"]
+  s.homepage    = "https://github.com/denispeplin/datatable_state"
+  s.summary     = "Saving DataTables state to database"
+  s.description = "Saving page lengths, search values, etc."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
