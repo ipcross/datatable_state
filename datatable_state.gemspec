@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Saving DataTables state to database"
   s.description = "Saving page lengths, search values, etc."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "~> 3.2"
   # s.add_dependency "jquery-rails"
