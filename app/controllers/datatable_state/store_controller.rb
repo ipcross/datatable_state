@@ -9,7 +9,7 @@ module DatatableState
       if @store
         @store.update_attributes(params[:datatable_state])
       else
-        @store = DatatableState.new(params[:datatable_state])
+        @store = Store.new(params[:datatable_state])
         @store.user = current_user
       end
 
