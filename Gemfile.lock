@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    datatable_state (0.0.1)
-      rails (~> 3.2.20)
+    datatable_state (0.0.3)
+      rails (~> 3.2)
 
 GEM
   remote: https://rubygems.org/
