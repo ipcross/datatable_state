@@ -42,3 +42,6 @@ Insert callbacks and utilites into DataTables definition:
       "stateSaveParams": datatableStateSkipPerColumn,
       ...
     }
+
+Use `saved_display_length` helper with server-side datatable
+    <table class="datatable datatable_ajax" ... <%= saved_display_length %>>
