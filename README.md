@@ -44,4 +44,5 @@ Insert callbacks and utilites into DataTables definition:
     }
 
 Use `saved_display_length` helper with server-side datatable
+
     <table class="datatable datatable_ajax" ... <%= saved_display_length %>>
