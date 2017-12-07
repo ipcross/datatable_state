@@ -3,7 +3,7 @@ require_dependency "datatable_state/application_controller"
 module DatatableState
   class StoreController < ApplicationController
     respond_to :json
-    before_filter :get_state
+    before_action :get_state
 
     def save
       if @store
@@ -28,7 +28,9 @@ module DatatableState
       else
         {}.as_json
       end
-      respond_with result
+      respond_to do |format|
+        format.json { render json: result }
+      end
     end
 
     private
