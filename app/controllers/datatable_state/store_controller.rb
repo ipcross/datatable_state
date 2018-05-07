@@ -34,6 +34,7 @@ module DatatableState
     private
 
     def get_state
+      return false unless current_user
       @store = Store.find_by_user_id_and_path(current_user.id,
         params[:datatable_state][:path])
     end
